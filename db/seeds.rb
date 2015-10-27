@@ -9,7 +9,6 @@
 15.times do
   Article.create(
     title: Faker::Lorem.sentence,
-    image: <img src="http://lorempixel.com/800/300/city/" alt="">,
-    contente: Faker::Lorem.paragraph(2)
+    content: Faker::Lorem.paragraph(2)
   )
 end
